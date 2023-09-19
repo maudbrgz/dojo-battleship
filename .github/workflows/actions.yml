@@ -1,0 +1,6 @@
+on: [push]
+jobs:
+	says-hi:
+		runs-on: ubuntu-latest
+		steps:
+		- run: echo "Hello"
